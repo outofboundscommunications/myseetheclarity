@@ -1,0 +1,127 @@
+body{font-family: 'source_sans_proregular'; color:#202020; font-size:21px;}
+
+/*-------------------------------------------------------------------------------
+Fonts
+-------------------------------------------------------------------------------*/
+@font-face {
+ font-family: 'source_sans_proregular';
+ src: url('fonts/source-sans-pro/sourcesanspro-regular-webfont.eot');
+ src: url('fonts/source-sans-pro/sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'), 
+	  url('fonts/source-sans-pro/sourcesanspro-regular-webfont.woff') format('woff'),  
+	  url('fonts/source-sans-pro/sourcesanspro-regular-webfont.ttf') format('truetype'),  
+	  url('fonts/source-sans-pro/sourcesanspro-regular-webfont.svg#source_sans_proregular') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+ @font-face {
+ font-family: 'source_sans_probold';
+ src: url('fonts/source-sans-pro-bold/sourcesanspro-bold-webfont.eot');
+ src: url('fonts/source-sans-pro-bold/sourcesanspro-bold-webfont.eot?#iefix') format('embedded-opentype'),  
+	  url('fonts/source-sans-pro-bold/sourcesanspro-bold-webfont.woff') format('woff'),  
+	  url('fonts/source-sans-pro-bold/sourcesanspro-bold-webfont.ttf') format('truetype'),  
+	  url('fonts/source-sans-pro-bold/sourcesanspro-bold-webfont.svg#source_sans_probold') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+ @font-face {
+ font-family: "Oxygenlight";
+ src:url('fonts/oxygen-light/oxygen-Light.eot');
+ src:url('fonts/oxygen-light/oxygen-Light.eot?#iefix') format('embedded-opentype'),  
+	 url('fonts/oxygen-light/oxygen-Light.svg#Oxygen') format('svg'),  
+	 url('fonts/oxygen-light/oxygen-Light.woff') format('woff'),  
+	 url('fonts/oxygen-light/oxygen-Light.ttf') format('truetype');
+ font-weight: normal;
+ font-style: normal;
+}
+ @font-face {
+ font-family: 'oxygenregular';
+ src: url('fonts/oxygen-regular/oxygen-regular-webfont.eot');
+ src: url('fonts/oxygen-regular/oxygen-regular-webfont.eot?#iefix') format('embedded-opentype'),  
+	  url('fonts/oxygen-regular/oxygen-regular-webfont.woff') format('woff'),  
+	  url('fonts/oxygen-regular/oxygen-regular-webfont.ttf') format('truetype'),  
+	  url('fonts/oxygen-regular/oxygen-regular-webfont.svg#oxygenregular') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+ @font-face {
+ font-family: 'oxygenbold';
+ src: url('fonts/oxygen-bold/oxygen-bold-webfont.eot');
+ src: url('fonts/oxygen-bold/oxygen-bold-webfont.eot?#iefix') format('embedded-opentype'),  
+	  url('fonts/oxygen-bold/oxygen-bold-webfont.woff') format('woff'),  
+	  url('fonts/oxygen-bold/oxygen-bold-webfont.ttf') format('truetype'),  
+	  url('fonts/oxygen-bold/oxygen-bold-webfont.svg#oxygenbold') format('svg');
+ font-weight: normal;
+ font-style: normal;
+}
+/*========================*/
+
+
+.site{width:100%; margin:0; padding:0;}
+
+/*================ Navigation ================*/
+.main-navigation, .navbar-collapse{display:inline-block; width:100%; height:40px;}
+.nav-menu {display:inline-block; height:40px; float:right;}
+.main-navigation li{display:inline-block; position:relative;}
+.main-navigation li > a{font-weight:bold;}
+.main-navigation li:hover > a, .main-navigation li > a:hover{color:#000000; text-decoration:none;}
+
+.main-navigation .sub-menu{border-left: 1px dotted #fff; padding-bottom: 5px;}
+.main-navigation li ul{margin: 0; position: absolute; top: 100%; z-index: 1; width:250px; top:30px;}
+.main-navigation li ul li{display:inline-block; line-height:18px; padding-top:4px; padding-bottom:4px;}
+.main-navigation li ul li a{display:inline-block; line-height:18px;}
+
+/*================ Home 3 Rouned box ================*/
+.home-circle-innner{
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	border-radius: 500px;	
+	position:relative;
+	zoom: 1;	
+	behavior: url("<?php echo get_stylesheet_directory_uri() . 'images/PIE.htc'; ?>");
+}
+.home-doctor-image .doctor-image{behavior: url(images/PIE.htc);}
+
+/*================ Banner Section in Inner Page ================*/
+.page-header-image .banner_image img{display:block;}
+
+.entry-content h2, .comment-content h2, .mu_register h2{font-family: 'source_sans_probold'; font-weight:bold;}
+.entry-content h3, .comment-content h3, .mu_register h3{font-family: 'source_sans_probold'; font-weight:bold;}
+.appointment_form .inline-heading{font-weight:bold;}
+
+.rev_slider .tp-caption{height:100px; line-height:50px !important;}
+.tp-bullets.simplebullets.round .bullet{margin-top:0;}
+
+.header-submenu-wrapper .header-submenu li a{font-family:Arial, Helvetica, sans-serif; font-size:12px; vertical-align:top;}
+
+.loc-title{width:101%; -ms-filter: "alpha(opacity=90)"; /* ie 8 */}
+
+.pic-caption{-ms-filter: "alpha(opacity=0)"; /* ie 8 */}
+.left-to-right{right:100%;}
+.pic-caption .btn-detail{background:url(images/white_tran_bg.png) repeat 0 0;}
+.appointment_form .ea-btn-small{background:url(images/white_tran_bg.png) repeat 0 0;}
+
+.widget_search .searchform .search-field{height:50px; padding-top:10px !important; padding-bottom:10px !important;}
+
+.page-header-wrapper .page_title_wrapper h1 span{font-size:60px;}
+
+/*================ Footer ================*/
+.footer-top-left{float:left;}
+
+.footer-bottom .row div{float:left;}
+
+/*========================================================================================*/
+.container{width:990px;}
+.row{margin-left: -15px;  margin-right: -15px;}
+
+.col-md-1{width: 8.33333%;}
+.col-md-2{width: 16.6667%;}
+.col-md-3{width: 25%;}
+.col-md-4{width: 33.3333%;}
+.col-md-5{width: 41.6667%;}
+.col-md-6{width: 50%;}
+.col-md-7{width: 58.3333%;}
+.col-md-8{width: 66.6667%;}
+.col-md-9{width: 75%;}
+.col-md-10{width: 83.3333%;}
+.col-md-11{width: 91.6667%;}
+.col-md-12{width: 100%;}

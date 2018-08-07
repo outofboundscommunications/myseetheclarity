@@ -1,0 +1,125 @@
+<?php
+global $device;
+/**
+ * Template Name: Home
+ *
+ * This is the template that displays all pages by default.
+ * Please note that this is the WordPress construct of pages
+ * and that other 'pages' on your WordPress site will use a
+ * different template.
+ *
+ * @package WordPress
+ * @subpackage Twenty_Twelve
+ * @since Twenty Twelve 1.0
+ */
+
+get_header(); ?>
+	
+	<div class="main_header">
+		<header class="page-header">
+			<?php
+			//commented on 27-9-2014
+			//putRevSlider("homepage");
+			?>
+			<?php /* ?>
+			<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				jQuery( ".rev_slider_wrapper .slotholder img.defaultimg" ).each(function() {
+					// Get on screen image
+					var screenImage = jQuery(this);
+					
+					// Create new offscreen image to test
+					var theImage = new Image();
+					theImage.src = screenImage.attr("src");
+					
+					// Get accurate measurements from that.
+					var imageWidth = theImage.width;
+					var imageHeight = theImage.height;
+					
+					// jQuery(this).height(imageHeight).width(imageWidth);
+					jQuery(this).attr('width', imageWidth).attr('height', imageHeight);;
+				});
+			});
+			</script>
+			<?php */ ?>
+			<!--new static slider -->
+			<div id="static-image" class="static-slider-image">
+				<?php
+				$static_banner   = get_stylesheet_directory_uri().'/images/banner.jpg';
+				$static_banner_d = getimagesize($static_banner);
+				$static_banner_u = $static_banner;
+				$static_banner_w = $static_banner_data[0];
+				$static_banner_h = $static_banner_data[1];
+				
+				$home_banner_text = 'Clarity<span class="white"> in eye care</span>';
+				if( function_exists('get_field') ){
+					$home_banner_image = get_field('home_banner_image');
+					$home_banner_text_acf  = get_field('home_banner_text');
+				}
+				
+				// echo '<pre>';
+				// print_r($home_banner_image);
+				// echo '</pre>';
+				
+				
+				
+				// echo '<pre>';
+				// print_r($device);
+				// print_r($device['device_type']);
+				// echo '</pre>';
+				
+				if( $home_banner_image ){
+					
+					// $static_banner = $home_banner_image['sizes']['full'];
+					if( $device['device_type'] == 'desktop' ){
+						
+						$static_banner_u = $home_banner_image['url'];
+						$static_banner_w = $home_banner_image['width'];
+						$static_banner_h = $home_banner_image['height'];
+						
+					}elseif( $device['device_type'] == 'mobile' ){
+						
+						$static_banner_u = $home_banner_image['sizes']['banner_mobile'];
+						$static_banner_w = $home_banner_image['sizes']['banner_mobile-width'];
+						$static_banner_h = $home_banner_image['sizes']['banner_mobile-height'];
+						
+					}elseif( $device['device_type'] == 'tablet' ){
+						
+						$static_banner_u = $home_banner_image['sizes']['banner_tablet'];
+						$static_banner_w = $home_banner_image['sizes']['banner_tablet-width'];
+						$static_banner_h = $home_banner_image['sizes']['banner_tablet-height'];
+						
+					}
+				}
+				
+				if( $home_banner_text_acf ){
+					$home_banner_text = $home_banner_text_acf;
+				}
+				?>
+				<img src="<?php echo $static_banner_u;?>" alt="banner1" data-fullwidthcentering="on" width="<?php echo $static_banner_w;?>" height="<?php echo $static_banner_h;?>">
+				<div class="slider_text">
+					<div class="middle">
+						<span class="black">
+							<?php echo $home_banner_text;?>
+						</span>
+					</div>
+				</div>
+			</div>
+			<!-- ends -->
+		</header>
+	</div><!-- .main_header -->
+	
+	<div class="main_content">
+	
+		<div id="primary" class="site-content">
+			<div id="content" role="main">
+
+				<?php while ( have_posts() ) : the_post(); ?>
+					<?php get_template_part( 'content/content', 'home' ); ?>
+				<?php endwhile; // end of the loop. ?>
+
+			</div><!-- #content -->
+		</div><!-- #primary -->
+	</div><!-- .main_content -->
+	
+<?php get_footer(); ?>

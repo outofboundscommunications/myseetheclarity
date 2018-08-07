@@ -1,0 +1,43 @@
+/*
+.acf_postbox.no_box > h3, .acf_postbox > h3 {
+	background-color: #CCCCCC;
+	display: block;
+}
+*/
+
+#toplevel_page_edit-post_type-acf,
+#toplevel_page_ebs-ebs-settings,
+#toplevel_page_icwp-wtb
+{
+	display:none;
+}
+.column-location_thumbnail,
+.column-doctors_thumbnail,
+.column-staffs_thumbnail {
+	width: 60px;
+}
+#acf-content_block [data-layout="wrapper_start"] .acf-fc-layout-handle{
+    background: #C7FED3;
+}
+#acf-content_block [data-layout="wrapper_end"] .acf-fc-layout-handle{
+    background: #FFC3C3;
+}
+#acf-content_block [data-layout="content_block_plain"] .acf-fc-layout-handle{
+    background: #F2FFB0;
+}
+
+.acf-fc-popup li a[data-layout="wrapper_start"]{
+    background: #C7FED3;
+	color: #000;
+}
+.acf-fc-popup li a[data-layout="wrapper_end"]{
+    background: #FFC3C3;
+	color: #000;
+}
+.acf-fc-popup li a[data-layout="content_block_plain"]{
+    background: #F2FFB0;
+	color: #000;
+}
+#sortable-list li span.title span {
+	display: inline;
+}

@@ -1,0 +1,34 @@
+# Use PHP5.4 as default
+AddHandler application/x-httpd-php54 .php
+
+# Use Mod_deflate to compress static files
+<ifmodule mod_deflate.c>
+	<filesmatch ".(js|css|ico|txt|htm|html|php)$">
+		SetOutputFilter DEFLATE
+	</filesmatch>
+</ifmodule>
+
+# Speed up caching
+	FileETag MTime Size
+
+# Expires
+	ExpiresActive On
+	ExpiresDefault "access plus 366 days"
+
+# Future Expires Headers
+	<filesmatch ".(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
+		Header set Expires "Sat, 27 Dec 2040 23:59:59 GMT"
+	</filesmatch>
+
+# Disable Cookie
+<FilesMatch "\.(js|css|jpg|png|jpeg|gif|xml|json|txt|pdf|mov|avi|otf|woff|ico|swf)$">
+	RequestHeader unset Cookie
+	Header unset Cookie
+	Header unset Set-Cookie
+	
+	Header unset Pragma
+	FileETag None 
+	Header unset ETag
+
+</FilesMatch>
+

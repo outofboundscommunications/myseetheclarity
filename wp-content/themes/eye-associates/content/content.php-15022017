@@ -1,0 +1,241 @@
+<?php
+/**
+ * The default template for displaying content
+ *
+ * Used for both single and index/archive/search.
+ *
+ * @package WordPress
+ * @subpackage Twenty_Twelve
+ * @since Twenty Twelve 1.0
+ */
+?>
+
+	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+		<?php
+		/*
+		if ( is_sticky() && is_home() && ! is_paged() ) {
+			?>
+			<div class="featured-post">
+				<?php _e( 'Featured post', 'twentytwelve' ); ?>
+			</div>
+			<?php
+		}
+		*/
+		?>
+		<header class="entry-header">
+			<?php
+			if ( is_single() ) {
+				?>
+				<h1 class="entry-title"><?php the_title(); ?></h1>
+				<?php
+			}else{
+				?>
+				<h1 class="entry-title">
+					<a href="<?php the_permalink(); ?>" rel="bookmark">
+						<?php the_title(); ?>
+					</a>
+				</h1>
+				<?php
+			}
+			// is_single()
+			?>
+			
+		</header><!-- .entry-header -->
+		
+		<div class="meta-image">
+			<a title="<?php echo esc_attr(get_the_title());?>" href="<?php the_permalink(); ?>" rel="bookmark">
+				<?php
+				if ( ! post_password_required() && ! is_attachment() ) {
+					the_post_thumbnail('blog_main');
+				}
+				?>
+			</a>
+		</div>
+		
+		<div class="columns entry-meta">
+			<div class="meta-wrapper meta-square">
+				<!----------------------------------------------------------------
+					Meta Date
+				----------------------------------------------------------------->
+				<div class="meta-date">
+					<div class="meta-outer">
+						<div class="meta-inner">
+							<span class="date-meta">
+								<time class="entry-date" datetime="<?php echo esc_attr( get_the_date( 'c' ) );?>">
+									<span class="date-meta-d"><?php echo esc_attr( get_the_date( 'd' ) );?></span>
+									<span class="date-meta-m"><?php echo esc_attr( get_the_date( 'M' ) );?></span>
+								</time>
+							</span>
+						</div>
+					</div>
+					<div class="meta-tooltip">
+						<span class="meta-title">Browse archives for :</span>
+						<div class="meta-date-archive-links">
+							<?php
+							$archive_year  = get_the_time('Y'); 
+							$archive_month = get_the_time('m'); 
+							$archive_day   = get_the_time('d'); 
+							?>
+							<a title="View archive for <?php the_time('F Y');?>" href="<?php echo get_month_link( $archive_year, $archive_month );?>">
+								<?php the_time('F');?>
+							</a> 
+							<a title="View archive for <?php the_time('F d, Y');?>" href="<?php echo get_day_link( $archive_year, $archive_month, $archive_day); ?>">
+								<?php the_time('d');?>
+							</a>, 
+							<a title="View archive for <?php the_time('Y');?>" href="<?php echo get_year_link( $archive_year );?>"><?php the_time('Y');?></a>
+						</div>
+					</div>
+				</div>
+				
+				<!----------------------------------------------------------------
+					Meta Author
+				----------------------------------------------------------------->
+				<div class="meta-author">
+					<div class="meta-outer">
+						<div class="meta-inner">
+						</div>
+					</div>
+					<div class="meta-tooltip">
+						<span class="meta-title"><?php the_author();?></span>
+						<span class="view-auhor-all-post-link">
+							<?php
+							$author = sprintf( '<span class="author vcard"><a class="url fn n" href="%1$s" title="%2$s" rel="author">%3$s</a></span>',
+								esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ),
+								esc_attr( sprintf( __( 'View all posts by %s', 'twentytwelve' ), get_the_author() ) ),
+								esc_attr( sprintf( __( 'View all posts by %s', 'twentytwelve' ), get_the_author() ) )
+							);
+							echo $author;
+							?>
+						</span>
+					</div>
+				</div>
+				
+				<!----------------------------------------------------------------
+					Meta Comments
+				----------------------------------------------------------------->
+				<div class="meta-comments">
+					<div class="meta-outer">
+						<div class="meta-inner">
+							<?php
+							$num_comments = get_comments_number();
+							?>
+							<span class="ico-comment colored-text"><?php echo $num_comments;?>
+								<?php
+								if( $num_comments > 999 ){
+									?>
+									<span class="commentsplus">+</span>
+									<?php
+								}
+								?>
+							</span>
+						</div>
+					</div>
+					<div class="meta-tooltip">
+						<?php
+						$args = array(
+							'number' => 1,
+							'post_id'=> $post->ID,
+							'status' => 'approve'
+						);
+						$latest_comment = get_comments( $args );
+						if( $latest_comment ) {
+							?>
+							<span class="meta-title">Latest Comment</span>
+							<div class="coment-wrap">
+								<?php
+								foreach( $latest_comment as $comment ) {
+									?>
+									<p> <?php echo get_avatar( $comment, 16 );?>
+									<a href="<?php the_permalink(); ?>#comment-<?php echo $comment->comment_ID; ?>">
+										<?php echo $comment->comment_author; ?>
+									</a>
+									<p><?php echo wp_html_excerpt( $comment->comment_content, 100 ); ?></p>
+									<?php
+								}
+								?>
+							</div>
+							<?php
+						}
+						?>
+							
+						<?php
+						if ( comments_open() ) {
+							?>
+							<a href="<?php comments_link(); ?>">Add your comment</a>
+							<?php
+						}else{
+							echo '<span class="comment_closed">Comments are closed.</span>';
+						}
+						// comments_open()
+						?>
+					</div>
+				</div>
+				
+				<!----------------------------------------------------------------
+					Meta Categories/Tags
+				----------------------------------------------------------------->
+				<div class="meta-cats">
+					<div class="meta-outer">
+						<div class="meta-inner">
+							<span class="shl-meta-ico ico-category"></span>
+						</div>
+					</div>
+					<div class="meta-tooltip">
+						<?php
+						$cat_tag = 0;
+						$categories_list = get_the_category_list( __( ', ', 'twentytwelve' ) );
+						if( $categories_list ){
+							$cat_tag++;
+							?>
+							<span class="meta-title">Posted in</span>
+							<p><?php echo $categories_list;?></p>
+							<?php
+						}
+						$tag_list = get_the_tag_list( '', __( ', ', 'twentytwelve' ) );
+						if( $tag_list ){
+							$cat_tag++;
+							?>
+							<span class="meta-title">Tagged with</span>
+							<?php
+							echo $tag_list;
+						}
+						if( $cat_tag == 0 ){
+							echo '<span>No Categories/Tags</span>';
+						}
+						?>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="entry-content-wrapper">
+			<?php
+			// Only display Excerpts for Search
+			if ( is_search() ){
+			}else{
+			}
+			?>
+			<div class="entry-content">
+				<?php
+				the_excerpt();
+				// the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentytwelve' ) );
+				// wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'twentytwelve' ), 'after' => '</div>' ) );
+				?>
+			</div><!-- .entry-content -->
+			<div class="clearfix"></div>
+		</div>
+		
+		<footer class="entry-metax">
+			<div class="share-buttons">
+				<span class='st_facebook_hcount' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>'></span>
+				<span st_via='setfinancial' st_username='setfinancial' class='st_twitter_hcount' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>'></span>
+				<span class='st_email_hcount' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>'></span>
+				<span class='st_sharethis_hcount' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>'></span>
+				<span class='st_fblike_hcount' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>'></span>
+				<span class='st_plusone_hcount' st_title='<?php the_title(); ?>' st_url='<?php the_permalink(); ?>'></span>
+			</div>
+			<div class="more_link">
+				<a class="read-more" href="<?php echo get_permalink();?>">read more</a>
+			</div>
+		</footer><!-- .entry-meta -->
+	</article><!-- #post -->

@@ -1,0 +1,62 @@
+<?php
+/**
+ * The template for displaying Tag pages
+ *
+ * Used to display archive-type pages for posts in a tag.
+ *
+ * @link http://codex.wordpress.org/Template_Hierarchy
+ *
+ * @package WordPress
+ * @subpackage Twenty_Twelve
+ * @since Twenty Twelve 1.0
+ */
+
+get_header(); ?>
+	
+	<div class="main_header">
+		<header class="page-header">
+			
+			<div class="page-header-wrapper">
+				<?php get_template_part( 'content/content', 'page-header' );?>
+			</div>
+			
+		</header>
+	</div><!-- .main_header -->
+	
+	<div class="main_content">
+		<div class="container">
+			<div class="row">
+			
+				<section id="primary" class="site-content col-lg-8 col-md-8 col-sm-8 col-xs-12">
+					<div id="content" role="main">
+
+					<?php if ( have_posts() ) {
+						?>
+						<header class="archive-header">
+							<h1 class="archive-title"><?php printf( __( 'Tag Archives: %s', 'twentytwelve' ), '<span>' . single_tag_title( '', false ) . '</span>' ); ?></h1>
+						</header><!-- .archive-header -->
+
+						<?php
+						/* Start the Loop */
+						while ( have_posts() ){
+							the_post();
+							
+							get_template_part( 'content/content', 'blog' );
+						}
+						
+						twentytwelve_content_nav( 'nav-below' );
+						
+					}else{
+						get_template_part( 'content', 'none' );
+					}
+					?>
+
+					</div><!-- #content -->
+				</section><!-- #primary -->
+
+				<?php get_sidebar(); ?>
+					
+			</div><!-- .row -->
+		</div><!-- .container -->
+	</div><!-- .main_content -->
+<?php get_footer(); ?>

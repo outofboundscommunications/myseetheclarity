@@ -1,0 +1,3 @@
+[23-Jun-2013 04:22:50 America/Detroit] PHP Fatal error:  Call to undefined function apply_filters() in /home/code125/public_html/madrid/wp-content/themes/madrid/library/includes/admin/ot-loader.php on line 75
+[23-Jun-2013 04:22:52 America/Detroit] PHP Fatal error:  Call to undefined function add_filter() in /home/code125/public_html/madrid/wp-content/themes/madrid/library/includes/admin/theme-options.php on line 15
+[23-Jun-2013 04:27:27 America/Detroit] PHP Fatal error:  Call to undefined function add_action() in /home/code125/public_html/madrid/wp-content/themes/madrid/library/includes/admin/meta-boxes.php on line 5

@@ -1,0 +1,78 @@
+<?php
+/**
+ * Template Name: Home
+ *
+ * This is the template that displays all pages by default.
+ * Please note that this is the WordPress construct of pages
+ * and that other 'pages' on your WordPress site will use a
+ * different template.
+ *
+ * @package WordPress
+ * @subpackage Twenty_Twelve
+ * @since Twenty Twelve 1.0
+ */
+
+get_header(); ?>
+	
+	<div class="main_header">
+		<header class="page-header">
+			<?php
+			//commented on 27-9-2014
+			//putRevSlider("homepage");
+			?>
+			<?php /* ?>
+			<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				jQuery( ".rev_slider_wrapper .slotholder img.defaultimg" ).each(function() {
+					// Get on screen image
+					var screenImage = jQuery(this);
+					
+					// Create new offscreen image to test
+					var theImage = new Image();
+					theImage.src = screenImage.attr("src");
+					
+					// Get accurate measurements from that.
+					var imageWidth = theImage.width;
+					var imageHeight = theImage.height;
+					
+					// jQuery(this).height(imageHeight).width(imageWidth);
+					jQuery(this).attr('width', imageWidth).attr('height', imageHeight);;
+				});
+			});
+			</script>
+			<?php */ ?>
+			<!--new static slider -->
+			<div id="static-image" class="static-slider-image">
+				<?php
+				$static_banner = get_stylesheet_directory_uri().'/images/banner.jpg';
+				$home_banner_image = get_field('home_banner_image');
+				
+				if( $home_banner_image ){
+					$static_banner = $home_banner_image['url'];
+				}
+				?>
+				<img src="<?php echo $static_banner;?>" alt="banner1" data-fullwidthcentering="on" width="1318" height="580">
+				<div class="slider_text">
+					<div class="middle">
+						<span class="black">Clarity</span><span class="white"> in eye care</span>
+					</div>
+				</div>
+			</div>
+			<!-- ends -->
+		</header>
+	</div><!-- .main_header -->
+	
+	<div class="main_content">
+	
+		<div id="primary" class="site-content">
+			<div id="content" role="main">
+
+				<?php while ( have_posts() ) : the_post(); ?>
+					<?php get_template_part( 'content/content', 'home' ); ?>
+				<?php endwhile; // end of the loop. ?>
+
+			</div><!-- #content -->
+		</div><!-- #primary -->
+	</div><!-- .main_content -->
+	
+<?php get_footer(); ?>

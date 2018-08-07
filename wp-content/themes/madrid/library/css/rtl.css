@@ -1,0 +1,878 @@
+/*
+Theme Name: Pure Minimal
+Theme URI: http://pure-des.net/
+Description: A New Minimal Wordpress Theme .
+Version: 1.0
+Author: Hisham Sadek
+Author URI: http://pure-des.net/
+
+*/
+
+
+html {direction:rtl;}
+/* Begin Typography & Colors */
+#container {
+	 text-align: right;
+	}
+
+#headertext{
+	float:right;
+}	
+
+#header-right{
+	float:left;
+}
+/*Menu*/
+
+/*
+Main Menu
+*/
+
+#menu li {
+	float: right;
+}
+
+/*
+Sub Menu
+*/
+#menu li ul {
+	left: 0; right:auto;
+}
+
+#menu li li {
+	float: right;	
+}
+
+#menu li li a, #menu li li a:visited {
+	text-align:right;
+}
+
+
+
+
+.left-data{
+	float:right;
+}
+.right-data{
+	float:left;
+}
+.dateicon{
+	background-position:right;
+	padding:0 14px 1px 0;
+}
+.categoryicon{
+	background-position:right;		
+	padding:0 19px 1px 0;
+}
+.commentsicon{
+	background-position:right;
+	padding:0 19px 1px 0;
+}
+
+.commentlist li .avatar { 
+	float: left;
+	}
+
+
+/* End Typography & Colors */
+
+
+
+/* Begin Structure */
+
+.widecolumn .smallattachment {
+	
+	float: right;
+	margin: 5px 0px 5px 5px;
+}
+
+
+/* End Structure */
+
+
+
+/*	Begin Headers */
+
+/* End Headers */
+
+
+
+/* Begin Images */
+
+/*	Using 'class="alignright"' on an image will (who would've
+	thought?!) align the image to the right. And using 'class="centered',
+	will of course center the image. This is much better than using
+	align="center", being much more futureproof (and valid) */
+
+
+/* End Images */
+
+
+
+/* Begin Lists
+
+	Special stylized non-IE bullets
+	Do not work in Internet Explorer, which merely default to normal bullets. */
+
+html>body .entry ul {
+	margin-right: 0px;
+	padding: 0 30px 0 0;
+	
+	padding-right: 10px;padding-left:0;
+	
+	}
+
+html>body .entry li {
+	margin: 7px 10px 8px 0;
+	}
+
+.entry ol {
+	padding: 0 35px 0 0;
+	
+	}
+
+
+
+#sidebar ul ul, #sidebar ul ol {
+	margin: 5px 10px 0 0;
+	
+	}
+
+#sidebar ul ul ul, #sidebar ul ol {
+	margin: 0 10px 0 0;
+	}
+
+/* End Entry Lists */
+
+
+
+/* Begin Form Elements */
+
+
+#commentform input {
+	margin: 5px 0 1px 5px;
+	}
+
+#commentform {
+	margin: 5px 0 0 5px;
+	}
+
+#commentform #submit {
+	margin: 0 auto 5px 0;
+	float: left;
+	}
+/* End Form Elements */
+
+
+
+/* Begin Comments*/
+
+
+
+
+/* End Comments */
+
+
+
+/* Begin Sidebar */
+
+
+/* End Sidebar */
+
+
+
+/* Begin Calendar */
+
+#wp-calendar #next a {
+	padding-right: 0;padding-left: 10px;
+	text-align: left;
+	}
+
+#wp-calendar #prev a {
+	padding-right: 10px;padding-left: 0;
+	text-align: right;
+	}
+
+/* End Calendar */
+
+
+
+/* Begin Various Tags & Classes */
+
+blockquote {
+	margin: 15px 10px 0 30px;
+	padding-left:0;padding-right: 20px;
+	border-right: 5px solid #ddd;border-left:none;
+	}
+
+
+/* End Various Tags & Classes*/
+
+
+
+/* Captions */
+
+/* End captions */
+
+
+/* "Daisy, Daisy, give me your answer do. I'm half crazy all for the love of you.
+	It won't be a stylish marriage, I can't afford a carriage.
+	But you'll look sweet upon the seat of a bicycle built for two." */
+	
+
+.commentlist .vcard img.avatar {
+float: right;
+}
+
+
+
+.commentlist .vcard cite.fn {
+font-weight: 700;
+font-style: normal;
+float: right;
+margin-left: 10px;
+}
+
+
+
+a.comment-reply-link {
+text-decoration: none;
+float: left;
+}
+
+
+
+.span8 textarea.element-block.icon, .span8 input.element-block.icon {
+padding-left: 2% !important;
+padding-right: 5% !important;
+}
+
+
+.widget .flickr img {
+float: right;
+}
+
+[class*="span"] {
+float: right;
+margin-left: 0px;
+margin-right: 20px;
+}
+@media (min-width: 1200px) {
+[class*="span"] {
+float: right;
+margin-left: 0px;
+margin-right: 30px;
+}
+
+.row-fluid [class*="span"] {
+margin-right: 2.564102564102564%;
+}
+}
+
+
+
+
+.row {
+margin-left: 0px;
+margin-right: -30px;
+}
+
+.row-fluid [class*="span"] {
+float: right;
+margin-left: 0px;
+
+margin-right: 2.127659574468085%;
+}
+
+.row-fluid [class*="span"]:first-child {
+margin-right: 0;
+}
+
+
+.span6 input.element-block.icon, .span6 textarea.element-block.icon {
+padding-left: 2% !important;
+padding-right: 6% !important;
+width: 92%;
+}
+
+
+ul.custom_tabs2 li {
+padding-left: 0px;
+background: url('../images/line_rtl.png')left bottom no-repeat;
+}
+
+ul.custom_tabs2 li a {
+padding-left: 0px;
+padding-right: 20px;
+}
+
+.custom_tabs2_wrap {
+margin-left: 0px;
+margin-right: 250px;
+}
+.custom_tabs2_content {
+padding-left: 0px;
+border-left: none;
+padding-right: 20px;
+border-right: 1px solid;
+}
+
+.toggle h3 span {
+float: right;
+margin-right:0px;
+margin-left:10px;
+}
+
+.dropcaps {
+float: right;
+}
+
+.accordion h2 span {
+float: right;
+margin-right: 10px;
+margin-left: 10px;
+}
+
+.tweet-time {
+text-align: left;
+}
+
+
+.blog-thumb .btn.right {
+float: left;
+}
+
+ .nav_wrap li a {
+ 	letter-spacing: 0px;
+ }
+ 
+ h3.title span.icon {
+ 	float: right;
+ 	margin-left:10px;
+ }
+
+.blog-thumb p.comments_number {
+float: left;
+}
+
+.blogother img {
+float: right;
+margin: 0 0px 0px 10px;
+}
+
+
+
+#topnav ul ul{
+	left: auto;
+	right: 0px;
+}
+
+#topnav ul ul ul {
+right: 100%;
+left: auto;
+}
+
+#topnav ul li ul li a {
+	text-align:right;
+}
+
+#topnav ul li ul li{
+	padding:5px 10px 5px 5px;
+}
+
+.float_left{
+	float: right;
+}
+.float_right{
+	float: left;
+}
+
+#filters{
+	float:left;
+}
+
+.tweet_list .tweet_avatar {
+float: right;
+margin: 5px 0px 5px 5px;
+}
+
+#lastestfromblog{
+	direction:ltr;
+}
+.width_10, .width_20, .width_25, .width_30, .width_40, .width_45, .width_50, .width_55, .width_60, .width_70, .width_75, .width_80, .width_90, .width_16, .width_84{
+float: right;
+}
+
+.commentlist li:not(.depth-1) {
+padding-left: 0px;
+padding-right: 40px;
+background: url('../images/line_comment_rtl.png') no-repeat right top;
+margin-right: 20px;
+}
+
+.footer-nav li {
+float: right;
+margin-left: 0px;
+}
+
+#social_icons li.search #top_search,
+#top-menu-nav ul{
+	right: 0px;
+	left: auto;
+}
+#top-menu-nav ul ul ul {
+right: 100%;
+}
+#top_search select#cat {
+margin-left: 0px;
+margin-right:2%;
+}
+
+#top-menu-nav ul > li::before {
+margin-right: 0px;
+float: right;
+margin-left: 5px;
+}
+
+#top-menu-nav ul li ul li a {
+	text-align: right;
+}
+
+#topnav li a{
+	padding-right:0px;
+	padding-left:0px;
+}
+.top-wide-nav #topnav li a span.more{
+	margin-right:10px;
+	margin-left:0px;
+}
+.top-wide-nav #topnav{
+	float: right;
+}
+
+.top-wide-nav .today{
+	float: left;
+}
+.top-wide-nav .today p{
+	margin-left:20px;
+}
+h3.title .side-icon {
+float: left;
+}
+
+#wp-calendar td, #wp-calendar th{
+	text-align:center;
+}
+
+.top-wide-nav #topnav li ul {
+right: 0px;
+left: auto;
+}
+
+#topnav ul.top-nav > li::before {
+margin-right: 0px;
+margin-left: 2px;
+}
+.top-wide-nav #topnav ul.top-nav > li {
+	float: right;
+}
+.breaking-news-wrap {
+
+}
+
+p.breaking-title {
+float: right;
+margin-right:0px;
+border-right: 0px;
+border-left: none;
+}
+
+.flexslider ,
+.shortcode_4col_posts {
+	direction: ltr;
+}
+
+
+.tickercontainer .mask{
+	margin-right: 40px;
+}
+#inner-content {
+
+}
+
+h3.title span.arrow{
+	right: 20px;
+	left: auto;
+}
+
+ul.meta-entry li {
+float: right;
+margin-right: 0px;
+margin-left: 15px;
+}
+
+#tiptip_holder.tip_top{
+	direction: ltr;
+}
+
+.footer .latest_news img, .latest_news img,
+.footer .latest_news p,
+.latest_news p,
+.comments_list li img ,
+.twitter-author img,
+.widget ul.tweets li span, 
+ul.tweets li span,
+p.cat-content{
+float: right;
+margin-right: 0px;
+margin-left:10px;
+}
+
+
+ul.social-icons li{
+	float: right;
+	margin-right: 0px;
+	margin-left:5px;
+}
+
+#topnav ul ul {
+right: 100%;
+left: auto;
+}
+
+.flexslider ol.flex-control-nav li a{
+	text-align:right;
+	direction: rtl;
+}
+
+
+p.author_description span.arrow-up{
+	right: 40px;
+	left: auto;
+}
+
+ul.newsticker li{
+	direction: rtl;
+}
+
+.shortcode_4col_posts ul.flex-direction-nav{
+	left: -4px;
+	right: auto;
+}
+
+#social_icons li,
+#top_search input.element-block,
+#top-menu-nav ul > li,
+#logo ,
+.widget .tabs li,
+ul.share li,
+ul.custom_tabs li,
+.progress .bar,
+.ad_125,
+.toggle h3 a, .toggle h3 a:hover,
+.left_tabs {
+	float: right;
+}
+
+.footer-nav,
+.ad_top_wrap,
+#topnav li a span.more,
+p.shuffle-article a,
+h3.title a.rss-icon,
+a.button.right {
+float: left;
+}
+
+ul.newsticker span{
+	margin:0px 0px 0px 10px;
+}
+
+#topnav li a span.more.icon-chevron-right::before{
+	content: '';
+}
+
+#content.span10{
+	margin-right:30px;
+}
+.post-like .like{
+	margin-right:0px;
+	margin-left:4px;
+}
+
+ul.newsticker li{
+	float: right;
+}
+
+
+.news_in_photo .news-photo {
+	float: right;
+}
+
+.tags a,
+.leftline{
+	float: right;
+}
+ul.footer-nav{
+	float: left;
+}
+
+ul.footer-nav li{
+	float: right;
+}
+.date-list p span{
+	margin-left:5px;
+}
+h3.title span{
+	margin-right:0px;
+	margin-left:5px;
+}
+
+ul.meta-entry li p span, ul.meta-entry li a span{
+	margin-left:5px;
+}
+
+.category_style_4 .mini-post{
+	margin-left: 3%;
+	margin-right: 0px;
+	float: right;
+}
+.category_style_4 .mini-post2, .category_style_4 .mini-post5{
+	margin-left: 0px;
+}
+.flip-post a.cat-link{
+	right: 20px;
+	left: 0px;
+}
+
+.flip-post a.title-link{
+	text-align: left;
+}
+
+p.side_show{
+	float: right;
+	margin-right:0px;
+	margin-left:1px;
+}
+.content_active {
+transform: translate(-200px,0px);
+-ms-transform: translate(-200px,0px);
+-webkit-transform: translate(-200px,0px);
+-o-transform: translate(-200px,0px);
+-moz-transform: translate(-200px,0px);
+}
+#topnav ul li ul li{
+	text-align:right;
+}
+
+#social_icons .element{
+	float: right;
+}
+
+#social_icons{
+	float: left;
+}
+
+.dropdown-menu {
+right: auto;
+left: 0px;
+}
+
+.dropdown-menu:before {
+left: 9px;
+right: auto;
+}
+
+.language-class, .language-class a, #social_icons .language-class a ,
+.top-menu-nav ul li ul li,
+.top-menu-nav ul li ul li a{
+text-align: right;
+}
+
+.language-class img {
+margin-left: 5px;
+margin-right:0px;
+}
+
+.top-menu-nav ul>li ,
+h3.title span,
+h3.title span.title{
+	float: right;
+}
+.top-menu-nav ul ul ul{
+	left: auto;
+	right: 100%;
+}
+.top-menu-nav ul ul{
+	right: 0px;
+	left: auto;
+}
+
+.top-menu-nav li a span.more {
+float: left;
+}
+
+.thumb-wrap {
+float: right;
+margin-right: 0px;
+margin-left: 20px;
+}
+.thumb-subdata p {
+float: right;
+}
+
+.thumb-subdata p.date {
+border-left: 1px solid;
+padding-left: 10px;
+margin-left: 10px;
+margin-right: 0px;
+padding-right: 0px;
+border-right: 0px;
+}
+
+.custom_ul li.li_icon {
+padding-right: 30px;
+padding-left: 0px;
+}
+
+ul.custom_ul li span.li_icon {
+margin-left: 5px;
+margin-right: -29px;
+}
+.wrap-post-list .flip-post-wrap {
+position: absolute;
+right: 0px;
+top: 0px;
+}
+
+.wrap-post-list.small .wrap-post-content {
+padding-right: 40px;
+padding-left: 0px;
+}
+
+.wrap-post-list ul.meta-article-entry li {
+float: right;
+margin-left: 2px;
+margin-right:0px;
+}
+
+#floating-bar ul.menu-sc-nav{
+	float: left;
+}
+
+.slider_with_title.flexslider ul.flex-direction-nav{
+	right: auto;
+	left: 0px;
+}
+
+.width_50_right a.author,
+.width_50_right p {
+text-align: right;
+}
+.service-column-wrap.style1 .wrap-service-icon{
+	left:auto;
+	right: 0px;
+}
+
+.service-column-wrap.style1 .service-content-wrap {
+margin-left: 0px;
+margin-right: 60px;
+}
+.span8 .width_50_right a.author{
+	text-align:right;
+}
+
+ul.meta-article-entry li{
+	float: right;
+	margin-right:0px;
+	margin-left:2px;
+}
+
+.wrap-post-content {
+padding-left: 0px;
+padding-right:70px;
+}
+
+.width_50_right.post-slider{
+	right: 30px;
+	left: auto;
+}
+
+.social_box_count .count{
+	float: right;
+}
+
+.title_wrap .border h1{
+	float: right;
+}
+#crumbs{
+	float: left;
+}
+
+.input-wrap span,
+.shortcode_4col_posts ul.flex-direction-nav, .testimonials_slider .flexslider ul.flex-direction-nav{
+	left: 0px;
+	right: auto;
+}
+
+.float_right.top-menu-nav .ad_468x60, .float_right.top-menu-nav .ad_728x90,
+.next-navigation{
+	float: left;
+}
+
+.roll-link span,
+h3.title span.title,
+.roll-link-html span.text{
+	float: right;
+}
+
+h3.title span {
+	float: right;
+}
+
+
+h3.title a.roll-link-html{
+	float: right;
+} 
+
+.boxed-layout #below-logo-bar.top-menu-nav {
+margin-left: 0px;
+margin-right: -5px;
+}
+
+.accordion_thumbs .title .down{
+	right: auto;
+	left:10px;
+}
+
+h2.blogtitle .article-icon{
+	float: right;
+	margin-left:20px;
+	margin-right:0px;
+}
+
+.rating_table td.rating_cell{
+	border-right: none;
+	border-left: 1px solid #ccc;
+}
+
+.width_50_right.post-slider ul.meta-article-entry li:before {
+line-height: 1.4;
+float: right;
+}
+
+.post-like .like{
+	float: right;
+	margin-right:10px;
+	margin-left:0px
+}
+
+.post-like a{
+	display: block;
+}
+
+.post-like .count{
+	float: left;
+	line-height: 1.5;
+	margin-right:0px;
+	margin-left:10px;
+}

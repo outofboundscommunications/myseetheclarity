@@ -1,0 +1,17 @@
+.clearfix{zoom:1}.clearfix:before,.clearfix:after{content:"";display:table}.clearfix:after{clear:both}.image-replacement{text-indent:100%;white-space:nowrap;overflow:hidden}span.amp{font-family:Baskerville,'Goudy Old Style',Palatino,'Book Antiqua',serif !important;font-style:italic}.text-left{text-align:left}.text-center{text-align:center}.text-right{text-align:right}.alert{margin:10px;padding:5px 18px;border:1px solid}.post-content .alignleft,.post-content img.alignleft{margin-right:1.5em;display:inline;float:left}.post-content .alignright,.post-content img.alignright{margin-left:1.5em;display:inline;float:right}.post-content .aligncenter,.post-content img.aligncenter{margin-right:auto;margin-left:auto;display:block;clear:both}
+
+.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+width: 960px;
+}
+
+	h3.title span.hover,
+	a.do-show-more-posts  span.hover,
+	.roll-link-html  span.hover{
+		display:none;
+	}
+	
+	h3.title:hover span.hover,
+	a.do-show-more-posts:hover  span.hover,
+	.roll-link-html:hover  span.hover{
+		display: block;
+	}

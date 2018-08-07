@@ -1,0 +1,1 @@
+[05-Jun-2018 07:17:54 America/Denver] PHP Fatal error:  Call to undefined function plugin_basename() in /home2/eyeasso1/public_html/seetheclarity/wp-content/plugins/contact-form-7/wp-contact-form-7.php on line 34

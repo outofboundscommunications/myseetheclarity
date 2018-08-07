@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html" />
+	<meta name="author" content="lolkittens" />
+
+	<title>Untitled 1</title>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+</head>
+
+<body>
+<center><br />
+Mobile No : 
+<br /><br />
+<span class="location_data">
+<a style="font-size: 72px;" href="tel:9133399090">(913) 339-9090</a>
+</span>
+</center>
+<script>
+
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    
+} else {
+    $('.location_data a').removeAttr('href');
+}
+</script>
+
+</body>
+</html>

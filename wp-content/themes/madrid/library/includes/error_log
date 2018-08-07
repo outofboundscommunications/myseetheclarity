@@ -1,0 +1,9 @@
+[23-Jun-2013 04:18:53 America/Detroit] PHP Fatal error:  Call to undefined function add_action() in /home/code125/public_html/madrid/wp-content/themes/madrid/library/includes/bones.php on line 20
+[23-Jun-2013 04:18:53 America/Detroit] PHP Fatal error:  Call to undefined function add_action() in /home/code125/public_html/madrid/wp-content/themes/madrid/library/includes/faq-post-type.php on line 58
+[23-Jun-2013 04:18:56 America/Detroit] PHP Fatal error:  Call to undefined function add_action() in /home/code125/public_html/madrid/wp-content/themes/madrid/library/includes/portfolio-post-type.php on line 58
+[23-Jun-2013 04:19:07 America/Detroit] PHP Fatal error:  Call to undefined function add_action() in /home/code125/public_html/madrid/wp-content/themes/madrid/library/includes/team-post-type.php on line 193
+[23-Jun-2013 04:19:16 America/Detroit] PHP Fatal error:  Call to undefined function add_filter() in /home/code125/public_html/madrid/wp-content/themes/madrid/library/includes/header-custom.php on line 6
+[23-Jun-2013 04:19:19 America/Detroit] PHP Fatal error:  Call to undefined function add_action() in /home/code125/public_html/madrid/wp-content/themes/madrid/library/includes/slides-post-type.php on line 58
+[23-Jun-2013 04:19:20 America/Detroit] PHP Fatal error:  Call to undefined function add_action() in /home/code125/public_html/madrid/wp-content/themes/madrid/library/includes/testimonial-post-type.php on line 58
+[23-Jun-2013 04:19:23 America/Detroit] PHP Fatal error:  Call to undefined function add_action() in /home/code125/public_html/madrid/wp-content/themes/madrid/library/includes/update_notifier.php on line 21
+[23-Jun-2013 04:19:36 America/Detroit] PHP Fatal error:  Call to undefined function add_action() in /home/code125/public_html/madrid/wp-content/themes/madrid/library/includes/widgets.php on line 3

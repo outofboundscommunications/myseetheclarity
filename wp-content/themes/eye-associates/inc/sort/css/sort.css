@@ -1,0 +1,72 @@
+#sortable-list{
+	list-style-type: none; margin: 10px 0 0; padding: 0; width: 100%;
+}
+
+/* #sortable-list li{
+	padding:10px;
+	width:50%;
+	font-weight:bold;
+	cursor:move;
+	border:1px solid #ddd;
+	
+	background:#f5f5f5;
+	background:-webkit-gradient(linear, left bottom, left top, color-stop(0, #eeeeee), color-stop(1, #ffffff));
+	background:-ms-linear-gradient(bottom, #eeeeee, #ffffff);
+	background:-moz-linear-gradient(center bottom, #eeeeee 0%, #ffffff 100%);
+	
+	-webkit-border-radius:3px;
+	   -moz-border-radius:3px;
+	        border-radius:3px;
+			
+	-webkit-background-clip:padding-box;
+	   -moz-background-clip:padding;
+	        background-clip:padding-box;
+}
+ */
+
+#sortable-list {list-style-type: none; margin: 10px 0 0; padding: 0; width: 100%; }
+#sortable-list ul { margin-left:20px; list-style: none; }
+#sortable-list li {
+	background: none repeat scroll 0 0 #F7F7F7;
+	border: 1px solid #DDDDDD;
+	cursor: move;
+	margin: 4px 0;
+	padding: 2px 0;
+}
+#sortable-list li.has_thumb .title {
+	float: left;
+	line-height: 60px;
+}
+#sortable-list li span {
+	display: block;
+	color:#808080;
+	font-size:13px;
+	font-weight:bold;
+	padding: 5px;
+}
+#sortable-list li span.thumb {
+	height: 60px;
+	width: 60px;
+	float: left;
+}
+#sortable-list li.placeholder{border: dashed 2px #ccc;background-color:#FFF;height:25px;}
+
+#sortable-list li.ui-sortable-helper{
+	border: 1px dashed #21759B;
+}
+
+#cpt_info_box {padding: 0 10px; border: 1px dashed #21759B; background-color: #F1F1F1}
+#cpt_info_box p {font-size: 12px}
+#cpt_info_box #donate_form {float: right; padding: 5px 0 10px 10px}
+
+#loading-animation{
+	display: none;
+}
+
+#icon-sort.icon32{
+	background-image: url("../img/sort_columns_32.png");
+}
+.ui-state-highlight {
+	border: 1px solid #E1A80D !important;
+	height: 60px;
+}

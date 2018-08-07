@@ -1,0 +1,1341 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Madrid 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-06-13 18:56+0200\n"
+"PO-Revision-Date: 2013-06-13 18:57+0200\n"
+"Last-Translator: Mostafa Mabrouk <mostafa.mabrouk@code125.com>\n"
+"Language-Team: Code125 <info@code125.com>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: /workspace/Projects/Madrid/madrid 2\n"
+
+#: /workspace/Projects/Madrid/madrid 2/404.php:15
+msgid "404"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/404.php:16
+msgid "Not found: The page you're looking for not here anymore, sorry."
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/404.php:17
+msgid "Sorry, but the page you were trying to view does not exist."
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/404.php:18
+msgid "It looks like this was the result of either:"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/archive.php:90 2/author.php:221
+#: 2/category.php:160 2/search.php:87 2/taxonomy.php:202
+msgid "&laquo; Older Entries"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/archive.php:91 2/author.php:222
+#: 2/category.php:161 2/search.php:88 2/taxonomy.php:203
+msgid "Newer Entries &raquo;"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/archive.php:98 2/archive.php:104
+#: 2/author.php:229 2/author.php:235 2/category.php:168 2/category.php:174
+#: 2/taxonomy.php:210 2/taxonomy.php:216
+#: 2/library/includes/shortcodes/lib/shortcodes.php:1348
+#: 2/library/includes/shortcodes/lib/shortcodes.php:1577
+msgid "There are no more posts."
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/archive.php:98 2/archive.php:104
+#: 2/author.php:229 2/author.php:235 2/category.php:168 2/category.php:174
+#: 2/taxonomy.php:210 2/taxonomy.php:216
+#: 2/library/includes/shortcodes/lib/shortcodes.php:1348
+#: 2/library/includes/shortcodes/lib/shortcodes.php:1577
+msgid "Loading Data"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/archive.php:98 2/archive.php:104
+#: 2/author.php:229 2/author.php:235 2/category.php:168 2/category.php:174
+#: 2/taxonomy.php:210 2/taxonomy.php:216
+#: 2/library/includes/shortcodes/lib/shortcodes.php:1348
+#: 2/library/includes/shortcodes/lib/shortcodes.php:1577
+msgid "Load More"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/archive.php:114 2/author.php:245
+#: 2/category.php:184 2/search.php:97 2/taxonomy.php:226
+msgid "Sorry, No Results."
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/archive.php:117 2/author.php:248
+#: 2/category.php:187 2/search.php:100 2/taxonomy.php:229
+msgid "Try your search again."
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/comments.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/comments.php:23 2/functions.php:1410
+msgid "Comments"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/comments.php:50
+msgid "Comments are closed."
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/functions.php:553
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/functions.php:554
+msgid "(Edit)"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/functions.php:558
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/functions.php:580
+msgid "Search our Website"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/functions.php:608
+msgid "Home"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/functions.php:627
+msgid "Archive by category \""
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/functions.php:630
+msgid "Search results for \""
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/functions.php:684
+msgid "Posts tagged \""
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/functions.php:689
+msgid "Articles posted by "
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/functions.php:692
+msgid "Error 404"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/functions.php:697
+msgid "Page"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/functions.php:740
+#: 2/library/includes/shortcodes/lib/shortcodes.php:1919
+#: 2/library/includes/shortcodes/lib/shortcodes.php:2848
+#: 2/library/includes/templates/blog-style1.php:50
+#: 2/library/includes/templates/blog-style2.php:63
+#: 2/library/includes/templates/blog-style3.php:69
+msgid "Read More"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/functions.php:900
+msgid "Name: "
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/functions.php:901
+msgid "Email: "
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/functions.php:902
+msgid "Message: "
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/functions.php:1016
+msgid "Edit Homepage"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/functions.php:1025
+msgid "Madrid Theme Options"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/functions.php:1121 2/functions.php:1124
+msgid "like"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/functions.php:1332
+msgid "Overall Score"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/functions.php:1406
+msgid "No Comments"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/functions.php:1408
+#: 2/single-attachment.php:107 2/single-portfolio.php:64 2/single.php:94
+msgid "1 Comment"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/functions.php:1906
+msgid "Views"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/functions.php:2200
+msgid "username"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/functions.php:2200
+msgid "******"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/functions.php:2200
+msgid "Remember Me"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/functions.php:2200
+msgid "Forget Password ?"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/functions.php:2200
+#: 2/library/includes/widgets.php:219
+msgid "Login"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/functions.php:2200
+msgid "Register"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/functions.php:2220
+msgid "Hello, "
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/functions.php:2220
+msgid "Logout"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/header.php:364
+msgid "404 Error"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/header.php:366
+msgid "Search Results for:"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/page.php:91 2/single-attachment.php:192
+#: 2/single-faq.php:69 2/single-portfolio.php:156 2/single-team.php:43
+#: 2/single-testimonial.php:86 2/single.php:421 2/template-blank.php:96
+#: 2/template-login-required.php:107 2/template-login.php:96
+#: 2/template-sitemap.php:129
+msgid "Oops, Post Not Found!"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/page.php:94 2/single-attachment.php:195
+#: 2/single-faq.php:72 2/single-portfolio.php:159 2/single-team.php:46
+#: 2/single-testimonial.php:89 2/single.php:424 2/template-blank.php:99
+#: 2/template-login-required.php:110 2/template-login.php:99
+#: 2/template-sitemap.php:132
+msgid "Uh Oh. Something is missing. Try double checking things."
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/page.php:98 2/single-attachment.php:198
+#: 2/single-faq.php:75 2/single-portfolio.php:162 2/single-team.php:49
+#: 2/single-testimonial.php:92 2/single.php:427 2/template-blank.php:103
+#: 2/template-login-required.php:114 2/template-login.php:103
+#: 2/template-sitemap.php:136
+msgid "This is the error message in the page.php template."
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/single-attachment.php:107
+#: 2/single-portfolio.php:64 2/single.php:94
+msgid "0 Comment"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/single-attachment.php:107
+#: 2/single-portfolio.php:64 2/single.php:94
+msgid "% Comments"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/single-portfolio.php:143
+msgid "Random Projects"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/single-team.php:33
+msgid "Other Team Members"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/single.php:212
+msgid "Share this post"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/single.php:309
+msgid "Related"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/single.php:346 2/single.php:351
+msgid "Facebook Comments"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/single.php:347 2/single.php:350
+msgid "Website Comments"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/single.php:374
+msgid "Name "
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/single.php:374 2/single.php:376
+#: 2/single.php:393
+msgid "(Required)"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/single.php:376
+msgid "Email "
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/single.php:378
+msgid "Website "
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/single.php:388
+msgid "LEAVE A COMMENT TO THIS POST"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/single.php:390
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/single.php:391
+msgid "Cancel reply"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/single.php:392
+msgid "Send comment."
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/single.php:393
+msgid "Your Comment "
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/template-login-required.php:91
+msgid "You must be logged in to view this page:"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/template-sitemap.php:86
+msgid "Pages"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/template-sitemap.php:92
+msgid "Categories"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/template-sitemap.php:98
+msgid "Tags"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/template-sitemap.php:109
+msgid "Authors"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/library/includes/widgets.php:35
+msgid "Show the latest Tweets"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/library/includes/widgets.php:39
+msgid "Code125 Latest Tweets"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/library/includes/widgets.php:81
+msgid "Latest Tweets"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/library/includes/widgets.php:85
+#: 2/library/includes/widgets.php:223 2/library/includes/widgets.php:559
+#: 2/library/includes/widgets.php:675 2/library/includes/widgets.php:737
+#: 2/library/includes/widgets.php:804 2/library/includes/widgets.php:877
+#: 2/library/includes/widgets.php:956 2/library/includes/widgets.php:1030
+#: 2/library/includes/widgets.php:1139 2/library/includes/widgets.php:1288
+msgid "Title:"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/library/includes/widgets.php:90
+msgid "Username:"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/library/includes/widgets.php:174
+msgid "Show the login/register Forms"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/library/includes/widgets.php:178
+msgid "Code125 Login Form"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/library/includes/widgets.php:504
+msgid "Show the Review Box in Articles when availble."
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/library/includes/widgets.php:508
+msgid "Code125 Review Box"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/library/includes/widgets.php:555
+#: 2/library/includes/widgets.php:671
+msgid "Review"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/library/includes/widgets.php:574
+msgid "Show the Author Box in Articles."
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/library/includes/widgets.php:578
+msgid "Code125 Author Widget"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/library/includes/widgets.php:689
+msgid "Add Ads Area with dimension 160x600"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/library/includes/widgets.php:693
+msgid "Code125 Ad 160x600"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/library/includes/widgets.php:733
+#: 2/library/includes/widgets.php:800 2/library/includes/widgets.php:873
+#: 2/library/includes/widgets.php:952
+#: 2/library/includes/shortcodes/lib/available.php:2802
+msgid "Ads"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/library/includes/widgets.php:742
+#: 2/library/includes/widgets.php:809
+msgid "Ad Content:"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/library/includes/widgets.php:756
+msgid "Add Ads Area with the width of 300"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/library/includes/widgets.php:760
+msgid "Code125 Ad 300x250"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/library/includes/widgets.php:978
+msgid "Show the Stream Photos from Flickr"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/library/includes/widgets.php:982
+msgid "Code125 Flickr Photostream"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/library/includes/widgets.php:1026
+msgid "Flickr Photostream"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/library/includes/widgets.php:1035
+msgid "ID:"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/library/includes/widgets.php:1059
+#: 2/library/includes/widgets.php:1136
+msgid "Featured Post"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/library/includes/widgets.php:1063
+msgid "Code125 Featured Post"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/library/includes/widgets.php:1144
+msgid "Post ID:"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/library/includes/widgets.php:1157
+msgid "Latest & Popular Posts"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/library/includes/widgets.php:1161
+msgid "Code125 Latest Posts"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/library/includes/widgets.php:1285
+msgid "From The Blog"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/library/includes/widgets.php:1326
+msgid "News In Photos"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/library/includes/widgets.php:1434
+msgid "Show Posts for certain Category."
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/library/includes/widgets.php:1595
+msgid "Show Menu in Sidebar."
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/library/includes/widgets.php:1689
+msgid "Show Posts for certain Category in List Style."
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/library/includes/widgets.php:1852
+msgid "Subscribe via email to your Feedburner feed."
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/library/includes/widgets.php:1878
+msgid "Widget Title:"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/library/includes/widgets.php:1879
+msgid "Feedburner feed User:"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/library/includes/widgets.php:1881
+msgid "Label for email box:"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid 2/library/includes/widgets.php:1882
+msgid "Submit button text:"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/shortcodes.php:116
+#: 2/library/includes/shortcodes/shortcodes.php:119
+msgid "Insert shortcode"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/shortcodes.php:133
+#: 2/library/includes/shortcodes/shortcodes.php:134
+msgid "Select shortcode"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/shortcodes.php:133
+msgid "Shortcode not found"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:147
+msgid "Basic shortcodes"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:278
+#: 2/library/includes/shortcodes/lib/available.php:464
+#: 2/library/includes/shortcodes/lib/available.php:677
+#: 2/library/includes/shortcodes/lib/available.php:720
+#: 2/library/includes/shortcodes/lib/available.php:767
+msgid "Float"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:283
+msgid "Sidebar"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:296
+msgid "Menu Location"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:305
+msgid "Background Color Mode"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:316
+msgid "Menu Style"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:324
+msgid "Responsive"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:337
+#: 2/library/includes/shortcodes/lib/available.php:424
+#: 2/library/includes/shortcodes/lib/available.php:1032
+#: 2/library/includes/shortcodes/lib/available.php:1061
+#: 2/library/includes/shortcodes/lib/available.php:1090
+#: 2/library/includes/shortcodes/lib/available.php:1105
+#: 2/library/includes/shortcodes/lib/available.php:1161
+#: 2/library/includes/shortcodes/lib/available.php:2202
+#: 2/library/includes/shortcodes/lib/available.php:2493
+#: 2/library/includes/shortcodes/lib/available.php:2539
+msgid "Title"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:341
+msgid "Title icon"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:345
+msgid "Title ID"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:350
+#: 2/library/includes/shortcodes/lib/available.php:369
+#: 2/library/includes/shortcodes/lib/available.php:379
+#: 2/library/includes/shortcodes/lib/available.php:389
+msgid "Title Shortcode"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:365
+msgid "Type"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:399
+#: 2/library/includes/shortcodes/lib/available.php:408
+msgid "L"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:419
+msgid "percentage in %"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:440
+#: 2/library/includes/shortcodes/lib/available.php:478
+msgid "Width, in px, just write the number"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:445
+#: 2/library/includes/shortcodes/lib/available.php:483
+msgid "Height, in px, just write the number"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:450
+#: 2/library/includes/shortcodes/lib/available.php:488
+msgid "Image Source"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:455
+#: 2/library/includes/shortcodes/lib/available.php:493
+msgid "Image Caption"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:510
+msgid "Li Float"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:515
+#: 2/library/includes/shortcodes/lib/available.php:536
+#: 2/library/includes/shortcodes/lib/available.php:575
+msgid "Icon Color"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:531
+#: 2/library/includes/shortcodes/lib/available.php:570
+#: 2/library/includes/shortcodes/lib/available.php:613
+#: 2/library/includes/shortcodes/lib/available.php:1038
+#: 2/library/includes/shortcodes/lib/available.php:1067
+msgid "Icon"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:542
+#: 2/library/includes/shortcodes/lib/available.php:591
+msgid "li content"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:556
+msgid "Align"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:560
+msgid "ul content"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:585
+msgid "Column Style"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:603
+#: 2/library/includes/shortcodes/lib/available.php:626
+msgid "Placeholder text"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:608
+msgid "ID for input"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:631
+msgid "ID for texarea"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:655
+#: 2/library/includes/shortcodes/lib/available.php:700
+#: 2/library/includes/shortcodes/lib/available.php:747
+#: 2/library/includes/shortcodes/lib/available.php:796
+msgid "Button Color"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:667
+msgid "Button Size"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:682
+#: 2/library/includes/shortcodes/lib/available.php:725
+#: 2/library/includes/shortcodes/lib/available.php:772
+#: 2/library/includes/shortcodes/lib/available.php:811
+#: 2/library/includes/shortcodes/lib/available.php:1723
+msgid "Button Text"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:687
+#: 2/library/includes/shortcodes/lib/available.php:730
+#: 2/library/includes/shortcodes/lib/available.php:777
+#: 2/library/includes/shortcodes/lib/available.php:816
+msgid "Button Link"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:705
+#: 2/library/includes/shortcodes/lib/available.php:752
+#: 2/library/includes/shortcodes/lib/available.php:806
+msgid "Button text Color"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:710
+#: 2/library/includes/shortcodes/lib/available.php:757
+#: 2/library/includes/shortcodes/lib/available.php:801
+msgid "Button icon"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:735
+#: 2/library/includes/shortcodes/lib/available.php:782
+msgid "Button id"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:819
+#: 2/library/includes/shortcodes/lib/available.php:826
+#: 2/library/includes/shortcodes/lib/available.php:833
+#: 2/library/includes/shortcodes/lib/available.php:840
+#: 2/library/includes/shortcodes/lib/available.php:935
+msgid "content"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:853
+#: 2/library/includes/shortcodes/lib/available.php:1478
+msgid "Style"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:858
+msgid "Background Image"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:870
+msgid "Background Repeat"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:880
+msgid "Background Attachment"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:896
+msgid "Background Position"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:901
+msgid "Background Color"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:950
+msgid "Box Type"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:955
+msgid "Box Title"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:960
+msgid "Box Message"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:990
+msgid "is_logged_in content"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:998
+msgid "is_logged_out content"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1010
+msgid "Tabs shortcodes"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1033
+#: 2/library/includes/shortcodes/lib/available.php:1062
+#: 2/library/includes/shortcodes/lib/available.php:1091
+#: 2/library/includes/shortcodes/lib/available.php:1106
+msgid "Tab title"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1042
+#: 2/library/includes/shortcodes/lib/available.php:1070
+#: 2/library/includes/shortcodes/lib/available.php:1095
+#: 2/library/includes/shortcodes/lib/available.php:1196
+msgid "Tab content"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1109
+msgid "Toggle content"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1124
+msgid "Sliders shortcodes"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1146
+msgid "Slide"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1210
+#: 2/library/includes/shortcodes/lib/available.php:1307
+msgid "Slider Width"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1219
+#: 2/library/includes/shortcodes/lib/available.php:1365
+#: 2/library/includes/shortcodes/lib/available.php:1883
+#: 2/library/includes/shortcodes/lib/available.php:2345
+msgid "Show Author in  meta settings"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1227
+#: 2/library/includes/shortcodes/lib/available.php:1373
+#: 2/library/includes/shortcodes/lib/available.php:1891
+#: 2/library/includes/shortcodes/lib/available.php:2353
+msgid "Show Time in  meta settings"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1235
+#: 2/library/includes/shortcodes/lib/available.php:1381
+#: 2/library/includes/shortcodes/lib/available.php:1899
+#: 2/library/includes/shortcodes/lib/available.php:2361
+msgid "Show  Comments Count in  meta settings"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1243
+#: 2/library/includes/shortcodes/lib/available.php:1389
+#: 2/library/includes/shortcodes/lib/available.php:1907
+#: 2/library/includes/shortcodes/lib/available.php:2369
+msgid "Show Category in  meta settings"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1251
+#: 2/library/includes/shortcodes/lib/available.php:1397
+#: 2/library/includes/shortcodes/lib/available.php:1915
+#: 2/library/includes/shortcodes/lib/available.php:2377
+msgid "Show Like Count in  meta settings"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1259
+#: 2/library/includes/shortcodes/lib/available.php:1405
+#: 2/library/includes/shortcodes/lib/available.php:1923
+#: 2/library/includes/shortcodes/lib/available.php:2385
+msgid "Show View Count in  meta settings"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1267
+#: 2/library/includes/shortcodes/lib/available.php:1413
+#: 2/library/includes/shortcodes/lib/available.php:1931
+#: 2/library/includes/shortcodes/lib/available.php:2393
+msgid "Show Review Starts in  meta settings"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1271
+msgid "posts_2."
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1281
+#: 2/library/includes/shortcodes/lib/available.php:1490
+#: 2/library/includes/shortcodes/lib/available.php:1549
+#: 2/library/includes/shortcodes/lib/available.php:1584
+#: 2/library/includes/shortcodes/lib/available.php:1619
+#: 2/library/includes/shortcodes/lib/available.php:1654
+#: 2/library/includes/shortcodes/lib/available.php:1697
+#: 2/library/includes/shortcodes/lib/available.php:1735
+msgid "Post ID"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1290
+#: 2/library/includes/shortcodes/lib/available.php:1313
+#: 2/library/includes/shortcodes/lib/available.php:1784
+#: 2/library/includes/shortcodes/lib/available.php:1943
+#: 2/library/includes/shortcodes/lib/available.php:2073
+#: 2/library/includes/shortcodes/lib/available.php:2130
+#: 2/library/includes/shortcodes/lib/available.php:2207
+#: 2/library/includes/shortcodes/lib/available.php:2265
+#: 2/library/includes/shortcodes/lib/available.php:2408
+#: 2/library/includes/shortcodes/lib/available.php:2483
+msgid "Post Type"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1318
+#: 2/library/includes/shortcodes/lib/available.php:1789
+#: 2/library/includes/shortcodes/lib/available.php:1948
+#: 2/library/includes/shortcodes/lib/available.php:2078
+#: 2/library/includes/shortcodes/lib/available.php:2135
+#: 2/library/includes/shortcodes/lib/available.php:2212
+#: 2/library/includes/shortcodes/lib/available.php:2270
+#: 2/library/includes/shortcodes/lib/available.php:2413
+#: 2/library/includes/shortcodes/lib/available.php:2488
+msgid "Category ID"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1323
+#: 2/library/includes/shortcodes/lib/available.php:1831
+#: 2/library/includes/shortcodes/lib/available.php:1983
+#: 2/library/includes/shortcodes/lib/available.php:2083
+#: 2/library/includes/shortcodes/lib/available.php:2140
+#: 2/library/includes/shortcodes/lib/available.php:2217
+#: 2/library/includes/shortcodes/lib/available.php:2435
+msgid "Number of Posts Per page"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1331
+#: 2/library/includes/shortcodes/lib/available.php:1849
+#: 2/library/includes/shortcodes/lib/available.php:2001
+#: 2/library/includes/shortcodes/lib/available.php:2091
+#: 2/library/includes/shortcodes/lib/available.php:2148
+#: 2/library/includes/shortcodes/lib/available.php:2225
+#: 2/library/includes/shortcodes/lib/available.php:2311
+#: 2/library/includes/shortcodes/lib/available.php:2443
+#: 2/library/includes/shortcodes/lib/available.php:2501
+msgid "Order Direction"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1348
+#: 2/library/includes/shortcodes/lib/available.php:1866
+#: 2/library/includes/shortcodes/lib/available.php:2052
+#: 2/library/includes/shortcodes/lib/available.php:2109
+#: 2/library/includes/shortcodes/lib/available.php:2166
+#: 2/library/includes/shortcodes/lib/available.php:2243
+#: 2/library/includes/shortcodes/lib/available.php:2328
+#: 2/library/includes/shortcodes/lib/available.php:2460
+#: 2/library/includes/shortcodes/lib/available.php:2518
+msgid "Order By"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1357
+#: 2/library/includes/shortcodes/lib/available.php:1875
+#: 2/library/includes/shortcodes/lib/available.php:2061
+#: 2/library/includes/shortcodes/lib/available.php:2118
+#: 2/library/includes/shortcodes/lib/available.php:2175
+#: 2/library/includes/shortcodes/lib/available.php:2252
+#: 2/library/includes/shortcodes/lib/available.php:2337
+#: 2/library/includes/shortcodes/lib/available.php:2469
+#: 2/library/includes/shortcodes/lib/available.php:2527
+msgid "Meta Value"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1427
+msgid "Placeholder for name"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1432
+msgid "Placeholder for email"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1437
+msgid "Placeholder for message"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1442
+msgid "Text for send"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1446
+msgid "contact_form."
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1458
+msgid "Article shortcodes"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1470
+msgid "Size"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1495
+#: 2/library/includes/shortcodes/lib/available.php:1554
+#: 2/library/includes/shortcodes/lib/available.php:1589
+#: 2/library/includes/shortcodes/lib/available.php:1624
+#: 2/library/includes/shortcodes/lib/available.php:1659
+msgid "Add icon"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1503
+msgid "Link it to the post"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1517
+msgid "Wrap it in"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1524
+#: 2/library/includes/shortcodes/lib/available.php:1559
+#: 2/library/includes/shortcodes/lib/available.php:1594
+#: 2/library/includes/shortcodes/lib/available.php:1629
+#: 2/library/includes/shortcodes/lib/available.php:1664
+#: 2/library/includes/shortcodes/lib/available.php:1740
+msgid "Link Class"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1532
+#: 2/library/includes/shortcodes/lib/available.php:1567
+#: 2/library/includes/shortcodes/lib/available.php:1602
+#: 2/library/includes/shortcodes/lib/available.php:1637
+#: 2/library/includes/shortcodes/lib/available.php:1680
+#: 2/library/includes/shortcodes/lib/available.php:1705
+msgid "Wrap it with li"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1537
+#: 2/library/includes/shortcodes/lib/available.php:1572
+#: 2/library/includes/shortcodes/lib/available.php:1607
+#: 2/library/includes/shortcodes/lib/available.php:1642
+#: 2/library/includes/shortcodes/lib/available.php:1685
+#: 2/library/includes/shortcodes/lib/available.php:1710
+msgid "li Class"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1672
+msgid "Rendering text Method"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1770
+msgid "Posts shortcodes"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1802
+msgid "Blog Style"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1817
+msgid "Thumb View \"Incase of Style 7\""
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1826
+msgid "Thumb View Size \"Incase of Style 7\""
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1841
+#: 2/library/includes/shortcodes/lib/available.php:1993
+msgid "Paging Method"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1956
+msgid "Item Height"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1966
+msgid "Item Shape"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:1978
+msgid "Column Count"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:2009
+msgid "Show Child Categories"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:2017
+msgid "Make the Grid Filterable"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:2025
+msgid "Show Posts Count beside every Category"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:2033
+msgid "Show the filter bar \"Upper Bar\""
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:2192
+msgid "Source Type"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:2197
+msgid "Add Posts Ids seperated by ,"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:2283
+msgid "Category Style"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:2298
+msgid "Thumb View"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:2303
+msgid "Number of Posts To Show"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:2544
+msgid "Number of  testimonials"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:2554
+msgid "Social"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:2580
+msgid "Username"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:2585
+msgid "Number of Tweets"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:2601
+msgid "The ID of the Photostream"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:2606
+msgid "Number of Images"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:2621
+msgid "Latitude"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:2626
+msgid "Longtitude"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:2631
+msgid "Zoom \"number from 1 with step 1\""
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:2636
+#: 2/library/includes/shortcodes/lib/available.php:2667
+#: 2/library/includes/shortcodes/lib/available.php:2690
+#: 2/library/includes/shortcodes/lib/available.php:2714
+#: 2/library/includes/shortcodes/lib/available.php:2737
+#: 2/library/includes/shortcodes/lib/available.php:2760
+msgid "Height"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:2641
+#: 2/library/includes/shortcodes/lib/available.php:2662
+#: 2/library/includes/shortcodes/lib/available.php:2685
+#: 2/library/includes/shortcodes/lib/available.php:2709
+#: 2/library/includes/shortcodes/lib/available.php:2732
+#: 2/library/includes/shortcodes/lib/available.php:2755
+msgid "Width"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:2657
+#: 2/library/includes/shortcodes/lib/available.php:2680
+#: 2/library/includes/shortcodes/lib/available.php:2704
+msgid "The ID of the Video"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:2727
+#: 2/library/includes/shortcodes/lib/available.php:2750
+msgid "The Source of the Video"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:2773
+msgid "The Source of the audio"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/available.php:2787
+msgid "Track ID"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/generator.php:64
+msgid "Content"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/generator.php:67
+msgid "Generate"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/shortcodes.php:1530
+msgid "All"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/shortcodes.php:2698
+msgid "Navigation Menu"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/shortcodes.php:3343
+msgid "Sent "
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/shortcodes.php:3343
+msgid "Your Message was sent, Thank you."
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/shortcodes.php:3343
+msgid "Failed "
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/shortcodes.php:3343
+msgid "Your Message was not sent, Please try again."
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/shortcodes.php:4017
+msgid "Follow"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/shortcodes.php:4081
+msgid "Type and Hit Enter"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/shortcodes/lib/shortcodes.php:4092
+msgid "All Categories"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/templates/blog-style4.php:64
+#: 2/library/includes/templates/blog-style5.php:58
+msgid "Loading Article"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/templates/blog-style4.php:64
+#: 2/library/includes/templates/blog-style5.php:58
+msgid "Load Article"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/templates/portfolio-style1.php:95
+msgid "Learn More"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/templates/portfolio-style1.php:95
+msgid "Share this project"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/templates/team-style1.php:63
+msgid "Read About Me"
+msgstr ""
+
+#: /workspace/Projects/Madrid/madrid
+#: 2/library/includes/templates/team-style1.php:63
+msgid "Tell People about me"
+msgstr ""

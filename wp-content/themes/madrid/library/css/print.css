@@ -1,0 +1,22 @@
+@media print {
+      body {
+          width: 100%;
+      }
+      #header,
+      .ad_top_wrap,
+      .top-wide-nav,
+      .nav_bar,
+      .breaking-news-wrap,
+      #sidebar,
+      .meta-data-single,
+      ul.share,
+      .article-footer,
+      #footer{
+      	display: none !important;
+      }
+      
+      .row-fluid #main.span8{
+      	width: 100% !important;
+      	margin: 0px;
+      }
+}

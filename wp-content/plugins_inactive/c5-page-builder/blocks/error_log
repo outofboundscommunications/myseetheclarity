@@ -1,0 +1,2 @@
+[23-Jun-2013 04:23:47 America/Detroit] PHP Fatal error:  Class 'AQ_Block' not found in /home/code125/public_html/madrid/wp-content/themes/madrid/library/includes/page-builder/blocks/aq-layout-block.php on line 3
+[23-Jun-2013 04:23:47 America/Detroit] PHP Fatal error:  Class 'AQ_Block' not found in /home/code125/public_html/madrid/wp-content/themes/madrid/library/includes/page-builder/blocks/aq-shortcodes-block.php on line 3
