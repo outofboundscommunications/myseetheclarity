@@ -11108,17 +11108,11 @@ a.slicknav_btn.slicknav_collapsed, .search {
 
 		z-index: 9999;
 
-		width: 280px;
-
-		right: -280px;
+		
 
 	}
 
-	.top-tools ul li a {
-
-		padding: 5px 8px;
-
-	}
+	
 
 	.hamburger-close {
 
@@ -11151,11 +11145,7 @@ a.slicknav_btn.slicknav_collapsed, .search {
 
 	}
 
-	.top-tools ul li a {
-
-		padding: 5px 8px;
-
-	}
+	
 
 	.hamburger-close {
 
@@ -11227,9 +11217,9 @@ a.slicknav_btn.slicknav_collapsed, .search {
 
 	.top-tools {
 
-		right: -250px;
+		right: -397px;
 
-		width: 250px;
+		width: 397px;
 
 	}
 
@@ -11361,6 +11351,20 @@ dailies-brand {
 }
 }
 
+
+
+@media (max-width:650px) {
+
+    .top-tools {
+
+        right: -250px;
+
+        width: 250px;
+
+    }
+
+}
+
 .dailies-brand .ea-btn-large { position: static;}
 .dailies-brand { position: relative; padding-bottom: 0;}
 
@@ -11368,3 +11372,7 @@ dailies-brand {
 .entry-content .inner-locations-wrapper .home-lcoations p { margin-bottom:4px ;line-height: 28px; }
 .entry-content .inner-locations-wrapper .home-lcoations .pic-caption .btn-detail { padding: 7px 42px; }
 .entry-content .inner-locations-wrapper .home-lcoations .loc-title {font-size: 33px;line-height: 36px;}
+
+.site-header .search{ display: none !important; }
+
+
