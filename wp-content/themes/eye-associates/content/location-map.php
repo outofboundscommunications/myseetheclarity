@@ -48,7 +48,8 @@ $location_map_url = get_field('location_map_url');
 if( $location_map ){
 	?>
 <?php /*?><script src="//maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script><?php */?>
-<script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyATwss6Y77z4ZZZZOcM3VXhErjl6aeFL1Q"
+  type="text/javascript"></script>
 <script>
 jQuery(document).ready(function($) {
 	var var_map;
@@ -103,6 +104,7 @@ jQuery(document).ready(function($) {
 	});
 	$('#mapmodals').on('shown.bs.modal', function () {
 		google.maps.event.trigger(var_map, "resize");
+		$(".modal-backdrop.fade.in").remove();
 		return var_map.setCenter(var_location);
 	});
 });
