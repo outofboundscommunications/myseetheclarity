@@ -349,12 +349,12 @@ function column_width( $size = null ){
 function my_acf_options_page_settings( $settings )
 {
 	$settings['title'] = 'Options';
-	$settings['pages'] = array('Header', 'General Settings', 'Footer', 'Page Settings', 'Social Profiles', 'Location Settings');
+	$settings['pages'] = array('Header', 'General Settings', 'Footer', 'Page 	', 'Social Profiles', 'Location Settings');
 	// $settings['pages'] = array('Header', 'Footer', 'Contact Info', 'Slider');
  
 	return $settings;
 }
-add_filter('acf/options_page/settings', 'my_acf_options_page_settings');
+add_filter('acf/options_page/settings', 'my_acf_options_page_settings'); 
 /*--------------------------------------------------------------------------------
 	Shortcode
 --------------------------------------------------------------------------------*/
