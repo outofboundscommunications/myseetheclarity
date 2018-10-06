@@ -13,8 +13,7 @@ get_header(); ?>
 		<header class="page-header">
 			
 			<div class="page-header-wrapper">
-				
-				<?php  get_template_part( 'content/content', 'page-header' );?>
+				<?php get_template_part( 'content/content', 'page-header' );?>
 			</div>
 			
 		</header>

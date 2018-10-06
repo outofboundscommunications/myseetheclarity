@@ -1704,11 +1704,11 @@ a {
 
 .page-header-wrapper {
 
-	height: 335px
+	height: 366px
 
 }
 
-.home .page-header-wrapper,.rev-slider.page-header-wrapper{ min-height: inherit; height:auto;}
+.home .page-header-wrapper { min-height: inherit; height:auto;}
 
 .page-header-image {
 
