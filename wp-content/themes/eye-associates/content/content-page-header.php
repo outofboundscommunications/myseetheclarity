@@ -204,7 +204,7 @@ $page_color=$header_page_color;
                 else if($header_option=="slider")
                 {
                         ?>
-                        <div class="page-header-wrapper">
+                        <div class="page-header-wrapper rev-slider ">
                         <div id="static-image" class="">			
 				            <?php
                             //echo "<pre>".get_field("slider_shortcode")."</pre>";
@@ -273,13 +273,13 @@ $page_color=$header_page_color;
                 else if($header_option=="none")
                 {
                     ?>
-                        <!--div class="page-header-wrapper"-->
-                            <div class="page_title_coman">
+                        <div class="page-header-wrapper ">
+                            <div class="page_title_coman ">
                              <div class="container">
                               <h1><?php if(get_field('page_title')) the_field('page_title',get_the_ID()); else the_title();?></h1>
                              </div>
                             </div>
-                        <!--/div-->
+                        </div>
                     <?php
                 }                                  
                     ?>
